@@ -34,6 +34,7 @@ resource "aws_s3_bucket_object" "data_object" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "data_object"
     yor_trace            = "7e058931-4623-4083-a91f-36dd15155bb7"
+
   }
 }
 
@@ -104,6 +105,7 @@ resource "aws_s3_bucket" "data_science" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "data_science"
     yor_trace            = "862f1add-e04a-42c5-96a8-82dcb80724f2"
+
   }
 }
 
@@ -133,5 +135,6 @@ resource "aws_s3_bucket" "logs" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "logs"
     yor_trace            = "44a3d0db-07b0-4371-aec3-be88b8374ee4"
+
   }
 }

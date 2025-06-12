@@ -28,6 +28,7 @@ EOF
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_host"
     yor_trace            = "0315d35b-ff38-4095-a66d-a3cef7711aab"
+
   }
 }
 
@@ -47,6 +48,7 @@ resource "aws_ebs_volume" "web_host_storage" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_host_storage"
     yor_trace            = "84060aaa-8aef-44bf-a616-1fde42008f6d"
+
   }
 }
 
@@ -65,6 +67,7 @@ resource "aws_ebs_snapshot" "example_snapshot" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "example_snapshot"
     yor_trace            = "29efecb8-72ca-4d5d-acbe-6226f5401da2"
+
   }
 }
 
@@ -113,6 +116,7 @@ resource "aws_security_group" "web-node" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web-node"
     yor_trace            = "37b2112a-2ca7-4590-9f18-c07b1e23bfe8"
+
   }
 }
 
@@ -206,6 +210,7 @@ resource "aws_route_table" "web_rtb" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_rtb"
     yor_trace            = "b3bb87f8-b76e-4aa1-a015-84c24b42e4a7"
+
   }
 }
 
@@ -281,6 +286,7 @@ resource "aws_s3_bucket" "flowbucket" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "flowbucket"
     yor_trace            = "cd804dbd-aca9-4c02-871a-32d7118d6ea4"
+
   }
 }
 

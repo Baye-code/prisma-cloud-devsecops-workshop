@@ -19,6 +19,6 @@ resource "aws_ec2_host" "test" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "test"
-    yor_trace            = "0838accf-629d-4829-95d9-e747457e6db1"
+    yor_trace            = "fc7c8ab5-361e-46a3-b713-031c3c649a24"
   }
 }

@@ -27,7 +27,8 @@ EOF
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_host"
-    yor_trace            = "f2356515-0c99-4567-89e6-556ca8eaa45a"
+    yor_trace            = "0315d35b-ff38-4095-a66d-a3cef7711aab"
+
   }
 }
 
@@ -46,7 +47,8 @@ resource "aws_ebs_volume" "web_host_storage" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_host_storage"
-    yor_trace            = "71335d6a-3226-4a0f-8413-cf5b76b56fa0"
+    yor_trace            = "84060aaa-8aef-44bf-a616-1fde42008f6d"
+
   }
 }
 
@@ -64,7 +66,8 @@ resource "aws_ebs_snapshot" "example_snapshot" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "example_snapshot"
-    yor_trace            = "6eb6f5c6-3e12-4753-9dcd-d0bd19711dda"
+    yor_trace            = "29efecb8-72ca-4d5d-acbe-6226f5401da2"
+
   }
 }
 
@@ -112,7 +115,8 @@ resource "aws_security_group" "web-node" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web-node"
-    yor_trace            = "f63493fc-64c1-4fdc-8052-214c03f86d6c"
+    yor_trace            = "37b2112a-2ca7-4590-9f18-c07b1e23bfe8"
+
   }
 }
 
@@ -130,7 +134,7 @@ resource "aws_vpc" "web_vpc" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_vpc"
-    yor_trace            = "c925ae81-1f20-42f3-9640-58dc6d891c4b"
+    yor_trace            = "a310b5d6-024b-48a3-b9a7-9fe82870b6d3"
   }
 }
 
@@ -150,7 +154,7 @@ resource "aws_subnet" "web_subnet" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_subnet"
-    yor_trace            = "6080f7ba-025c-41b7-b6fc-194fa0efa218"
+    yor_trace            = "0e02170b-b68c-4233-abce-23e23e6ad832"
   }
 }
 
@@ -170,7 +174,7 @@ resource "aws_subnet" "web_subnet2" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_subnet2"
-    yor_trace            = "b66973f7-405c-409d-8901-826ca8bc9fb7"
+    yor_trace            = "13a4098d-06c8-4955-ae33-7c05e2276747"
   }
 }
 
@@ -188,7 +192,7 @@ resource "aws_internet_gateway" "web_igw" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_igw"
-    yor_trace            = "bb9bcb42-0c8e-4743-b77c-82b44992ad3c"
+    yor_trace            = "72f1783c-df38-41a0-a7f8-424a28aa72dd"
   }
 }
 
@@ -205,7 +209,8 @@ resource "aws_route_table" "web_rtb" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_rtb"
-    yor_trace            = "025f9c2f-0aa5-4bc0-ba3e-1f84d90eaf9e"
+    yor_trace            = "b3bb87f8-b76e-4aa1-a015-84c24b42e4a7"
+
   }
 }
 
@@ -242,7 +247,7 @@ resource "aws_network_interface" "web-eni" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web-eni"
-    yor_trace            = "01015eb1-de0b-4fc3-8c1f-2ba7ddde6269"
+    yor_trace            = "2edc6892-5103-4514-a6cb-d85f48df7a47"
   }
 }
 
@@ -263,7 +268,7 @@ resource "aws_flow_log" "vpcflowlogs" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "vpcflowlogs"
-    yor_trace            = "7b02d559-fe66-49ac-a67b-1e3d77006f40"
+    yor_trace            = "a31fc4d8-b396-44ea-a203-a0be95911985"
   }
 }
 
@@ -280,7 +285,8 @@ resource "aws_s3_bucket" "flowbucket" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "flowbucket"
-    yor_trace            = "59dc6651-b183-4c2e-b14a-1691d1f49c80"
+    yor_trace            = "cd804dbd-aca9-4c02-871a-32d7118d6ea4"
+
   }
 }
 

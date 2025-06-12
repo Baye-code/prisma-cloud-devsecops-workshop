@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "data" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "data"
-    yor_trace            = "167ac52d-ecba-4547-9f3e-de2b7579d33c"
+    yor_trace            = "1cc20ded-ea5e-492e-84ad-c383901b62f5"
   }
 }
 
@@ -33,7 +33,8 @@ resource "aws_s3_bucket_object" "data_object" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "data_object"
-    yor_trace            = "71472539-c63f-4338-90ac-05b666941259"
+    yor_trace            = "7e058931-4623-4083-a91f-36dd15155bb7"
+
   }
 }
 
@@ -54,7 +55,7 @@ resource "aws_s3_bucket" "financials" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "financials"
-    yor_trace            = "56fdaeeb-96bd-4ce9-92a6-dd3f5b6ef6f9"
+    yor_trace            = "95b64b47-401f-447f-b7ff-bd5f98e70e1c"
   }
 }
 
@@ -77,7 +78,7 @@ resource "aws_s3_bucket" "operations" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "operations"
-    yor_trace            = "c74f03d4-698c-4018-a4a0-80b1cf86046a"
+    yor_trace            = "5e6a610d-2c66-4ec8-8493-47496297ce91"
   }
 }
 
@@ -103,7 +104,8 @@ resource "aws_s3_bucket" "data_science" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "data_science"
-    yor_trace            = "551957d9-64a7-4d7b-8f4d-4b72699a0cb7"
+    yor_trace            = "862f1add-e04a-42c5-96a8-82dcb80724f2"
+
   }
 }
 
@@ -132,6 +134,7 @@ resource "aws_s3_bucket" "logs" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "logs"
-    yor_trace            = "8ac796e2-f39e-4395-a419-61a6857950dd"
+    yor_trace            = "44a3d0db-07b0-4371-aec3-be88b8374ee4"
+
   }
 }

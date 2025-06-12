@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "dev_s3" {
     git_org              = "Baye-code"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "dev_s3"
-    yor_trace            = "8a3838d2-3a81-4ee1-855d-418bb38bb66f"
+    yor_trace            = "9a91cb2a-628e-48e0-9414-87130af6fbfb"
   }
 }
 
